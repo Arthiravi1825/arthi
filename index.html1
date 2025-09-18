@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+</head>
+<body>
+  <!-- Logo Section -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="your-logo-url.png" alt="Company Logo" style="width:150px; height:auto;">
+  </div>
+
+  <h1>Login</h1>
+  <form action="/submit-login" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <input type="submit" value="Login">
+  </form>
+</body>
+</html>
